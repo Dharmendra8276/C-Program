@@ -1,5 +1,5 @@
 // C++ Program to Find GCD(Greatest Common Divisor)/HCF(Highest Common Factor)
-/*
+
 #include<iostream>
 using namespace std;
 
@@ -30,34 +30,5 @@ int main()
     }
     cout<<"GCD => "<<gcd<<endl;
 
-return 0;
-}
-*/
-
-
-#include<iostream>
-using namespace std;
-
-class GCD
-{
-    int N1, N2;
-public:
-    void get()
-    {
-        cout<<"Enter N1: ";
-        cin>>N1;
-        cout<<"Enter N2: ";
-        cin>>N2;
-    }
-    void display()
-    {
-        cout<<"GCD => "<<endl;
-    } 
-};
-
-
-int main()
-{
-    
 return 0;
 }
